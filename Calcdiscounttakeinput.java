@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Calcdiscounttakeinput {
   //method to calculate discount
-  public static String calc_discount(double amount) {
+  public static String CalcDiscount(double amount) {
     double discount = 0;
     if(amount >= 1000 && amount <= 5000){
       discount = 0.05 * amount;
@@ -18,7 +18,7 @@ public class Calcdiscounttakeinput {
      return "Discount is : " + discount;
     }
     else{
-      return "No discount available";
+      return "No discount available!";
     }
    
     
@@ -33,7 +33,7 @@ public class Calcdiscounttakeinput {
     double amount = input.nextDouble();
  
     //call the calc_discount method and print the result
-    System.out.println(calc_discount(amount));
+    System.out.println(CalcDiscount(amount));
     input.close();
   }
 
