@@ -1,9 +1,10 @@
-package ClassAssignment1;
+
 // This program calculates the bonus for an employee based on their salary.
 //Author: Sandra Nasimiyu Oyuga
 //Reg no: CT101/G/20455/23
 //date: 2nd February 2025
 
+package ClassAssignment1;
 
 import java.util.Scanner;
 
